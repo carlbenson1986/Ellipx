@@ -51,7 +51,7 @@ const HomePageStyle = css`
         align-items: center;
       }
 
-      & > div:nth-child(1) {
+      & > div:nth-of-type(1) {
         display: flex;
         align-items: flex-start;
         flex-direction: column;
@@ -77,7 +77,7 @@ const HomePageStyle = css`
         }
       }
 
-      & > div:nth-child(2) {
+      & > div:nth-of-type(2) {
         width: 60%;
         & > img {
           width: 100%;
