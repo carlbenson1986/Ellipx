@@ -115,7 +115,7 @@ const Footer = () => {
             </div>
             <div>
               <span>Legal</span>
-              <Link to="/" replace={pathname === '/'}>Privacy Policy</Link>
+              <Link to="/privacy" replace={pathname === '/'}>Privacy Policy</Link>
             </div>
           </div>
         </div>
