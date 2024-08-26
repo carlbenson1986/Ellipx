@@ -122,7 +122,9 @@ const Footer = () => {
         <div className='divider'></div>
         <div className='second-line'>
           <div>&copy;{new Date().getFullYear()} EllipX. All rights reserved.</div>
-          <LogoWhiteIcon />
+          <Link to="https://www.ellipx.com/" replace={pathname === '/'} target='_blank'>
+            <LogoWhiteIcon />
+          </Link>
         </div>
       </nav>
     </footer >
