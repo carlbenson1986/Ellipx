@@ -86,6 +86,8 @@ const ContactPageStyle = css`
           border-radius: 8px;
           padding: 8px;
           background-color: #FCF9FE;
+          outline: none;
+          border: none;
         }
 
         & > textarea {
@@ -94,6 +96,8 @@ const ContactPageStyle = css`
           border-radius: 8px;
           padding: 8px;
           background-color: #FCF9FE;
+          outline: none;
+          border: none;
         }
       }
 
